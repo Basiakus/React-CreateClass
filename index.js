@@ -30,9 +30,7 @@ var GamesCompare = React.createClass({
 
 		var gamesList = this.props.gamesArray.map(function(game) {
 
-			return React.createElement('li', {
-					key: game.id
-				},
+			return React.createElement('li', {key: game.id},
 				React.createElement('h2', {}, game.title),
 				React.createElement('img', {src: game.img}),
 				React.createElement('img', {src: game.img2}),
