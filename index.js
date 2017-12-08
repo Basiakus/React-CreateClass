@@ -46,7 +46,5 @@ var GamesCompare = React.createClass({
 	}
 });
 
-var element = React.createElement(GamesCompare, {
-	gamesArray: games
-});
+var element = React.createElement(GamesCompare, {gamesArray: games});
 ReactDOM.render(element, document.getElementById('listOfGames'));
